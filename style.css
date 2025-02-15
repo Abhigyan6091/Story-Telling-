@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #f9f6f6;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+}
+.abc{
+    background-color: #a9b9cf;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.class{
+    background-color: #a9b9cf;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.bye{
+    background-color: #ad82a8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* Graph Placeholder */
+.graph-placeholder {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #e0e0e0, #d1d1d1);
+    text-align: center;
+    line-height: 300px;
+    color: #555;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#abcd{
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .graph-placeholder {
+        height: 250px;
+        line-height: 250px;
+    }
+}
